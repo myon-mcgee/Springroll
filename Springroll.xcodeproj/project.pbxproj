@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0E425052D66F50800C72221 /* SpringrollApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E425042D66F50800C72221 /* SpringrollApp.swift */; };
+		D0E425072D66F50800C72221 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E425062D66F50800C72221 /* ContentView.swift */; };
+		D0E425092D66F50800C72221 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E425082D66F50800C72221 /* Item.swift */; };
+		D0E4250B2D66F50A00C72221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E4250A2D66F50A00C72221 /* Assets.xcassets */; };
+		D0E4250E2D66F50A00C72221 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0E4250D2D66F50A00C72221 /* Preview Assets.xcassets */; };
+		D0E425182D66F50A00C72221 /* SpringrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E425172D66F50A00C72221 /* SpringrollTests.swift */; };
+		D0E425222D66F50A00C72221 /* SpringrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E425212D66F50A00C72221 /* SpringrollUITests.swift */; };
+		D0E425242D66F50A00C72221 /* SpringrollUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E425232D66F50A00C72221 /* SpringrollUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0E425142D66F50A00C72221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E424F92D66F50800C72221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E425002D66F50800C72221;
+			remoteInfo = Springroll;
+		};
+		D0E4251E2D66F50A00C72221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0E424F92D66F50800C72221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0E425002D66F50800C72221;
+			remoteInfo = Springroll;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0E425012D66F50800C72221 /* Springroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Springroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E425042D66F50800C72221 /* SpringrollApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringrollApp.swift; sourceTree = "<group>"; };
+		D0E425062D66F50800C72221 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0E425082D66F50800C72221 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D0E4250A2D66F50A00C72221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0E4250D2D66F50A00C72221 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0E425132D66F50A00C72221 /* SpringrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E425172D66F50A00C72221 /* SpringrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringrollTests.swift; sourceTree = "<group>"; };
+		D0E4251D2D66F50A00C72221 /* SpringrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpringrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0E425212D66F50A00C72221 /* SpringrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringrollUITests.swift; sourceTree = "<group>"; };
+		D0E425232D66F50A00C72221 /* SpringrollUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringrollUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0E424FE2D66F50800C72221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E425102D66F50A00C72221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E4251A2D66F50A00C72221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0E424F82D66F50800C72221 = {
+			isa = PBXGroup;
+			children = (
+				D0E425032D66F50800C72221 /* Springroll */,
+				D0E425162D66F50A00C72221 /* SpringrollTests */,
+				D0E425202D66F50A00C72221 /* SpringrollUITests */,
+				D0E425022D66F50800C72221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0E425022D66F50800C72221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0E425012D66F50800C72221 /* Springroll.app */,
+				D0E425132D66F50A00C72221 /* SpringrollTests.xctest */,
+				D0E4251D2D66F50A00C72221 /* SpringrollUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0E425032D66F50800C72221 /* Springroll */ = {
+			isa = PBXGroup;
+			children = (
+				D0E425042D66F50800C72221 /* SpringrollApp.swift */,
+				D0E425062D66F50800C72221 /* ContentView.swift */,
+				D0E425082D66F50800C72221 /* Item.swift */,
+				D0E4250A2D66F50A00C72221 /* Assets.xcassets */,
+				D0E4250C2D66F50A00C72221 /* Preview Content */,
+			);
+			path = Springroll;
+			sourceTree = "<group>";
+		};
+		D0E4250C2D66F50A00C72221 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0E4250D2D66F50A00C72221 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0E425162D66F50A00C72221 /* SpringrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E425172D66F50A00C72221 /* SpringrollTests.swift */,
+			);
+			path = SpringrollTests;
+			sourceTree = "<group>";
+		};
+		D0E425202D66F50A00C72221 /* SpringrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0E425212D66F50A00C72221 /* SpringrollUITests.swift */,
+				D0E425232D66F50A00C72221 /* SpringrollUITestsLaunchTests.swift */,
+			);
+			path = SpringrollUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0E425002D66F50800C72221 /* Springroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E425272D66F50A00C72221 /* Build configuration list for PBXNativeTarget "Springroll" */;
+			buildPhases = (
+				D0E424FD2D66F50800C72221 /* Sources */,
+				D0E424FE2D66F50800C72221 /* Frameworks */,
+				D0E424FF2D66F50800C72221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Springroll;
+			productName = Springroll;
+			productReference = D0E425012D66F50800C72221 /* Springroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0E425122D66F50A00C72221 /* SpringrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E4252A2D66F50A00C72221 /* Build configuration list for PBXNativeTarget "SpringrollTests" */;
+			buildPhases = (
+				D0E4250F2D66F50A00C72221 /* Sources */,
+				D0E425102D66F50A00C72221 /* Frameworks */,
+				D0E425112D66F50A00C72221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E425152D66F50A00C72221 /* PBXTargetDependency */,
+			);
+			name = SpringrollTests;
+			productName = SpringrollTests;
+			productReference = D0E425132D66F50A00C72221 /* SpringrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0E4251C2D66F50A00C72221 /* SpringrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0E4252D2D66F50A00C72221 /* Build configuration list for PBXNativeTarget "SpringrollUITests" */;
+			buildPhases = (
+				D0E425192D66F50A00C72221 /* Sources */,
+				D0E4251A2D66F50A00C72221 /* Frameworks */,
+				D0E4251B2D66F50A00C72221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0E4251F2D66F50A00C72221 /* PBXTargetDependency */,
+			);
+			name = SpringrollUITests;
+			productName = SpringrollUITests;
+			productReference = D0E4251D2D66F50A00C72221 /* SpringrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0E424F92D66F50800C72221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D0E425002D66F50800C72221 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					D0E425122D66F50A00C72221 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D0E425002D66F50800C72221;
+					};
+					D0E4251C2D66F50A00C72221 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = D0E425002D66F50800C72221;
+					};
+				};
+			};
+			buildConfigurationList = D0E424FC2D66F50800C72221 /* Build configuration list for PBXProject "Springroll" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0E424F82D66F50800C72221;
+			productRefGroup = D0E425022D66F50800C72221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0E425002D66F50800C72221 /* Springroll */,
+				D0E425122D66F50A00C72221 /* SpringrollTests */,
+				D0E4251C2D66F50A00C72221 /* SpringrollUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0E424FF2D66F50800C72221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E4250E2D66F50A00C72221 /* Preview Assets.xcassets in Resources */,
+				D0E4250B2D66F50A00C72221 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E425112D66F50A00C72221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E4251B2D66F50A00C72221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0E424FD2D66F50800C72221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E425072D66F50800C72221 /* ContentView.swift in Sources */,
+				D0E425092D66F50800C72221 /* Item.swift in Sources */,
+				D0E425052D66F50800C72221 /* SpringrollApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E4250F2D66F50A00C72221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E425182D66F50A00C72221 /* SpringrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0E425192D66F50A00C72221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0E425242D66F50A00C72221 /* SpringrollUITestsLaunchTests.swift in Sources */,
+				D0E425222D66F50A00C72221 /* SpringrollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0E425152D66F50A00C72221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E425002D66F50800C72221 /* Springroll */;
+			targetProxy = D0E425142D66F50A00C72221 /* PBXContainerItemProxy */;
+		};
+		D0E4251F2D66F50A00C72221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0E425002D66F50800C72221 /* Springroll */;
+			targetProxy = D0E4251E2D66F50A00C72221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0E425252D66F50A00C72221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0E425262D66F50A00C72221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E425282D66F50A00C72221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Springroll/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Springroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0E425292D66F50A00C72221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Springroll/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Springroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0E4252B2D66F50A00C72221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SpringrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Springroll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Springroll";
+			};
+			name = Debug;
+		};
+		D0E4252C2D66F50A00C72221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SpringrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Springroll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Springroll";
+			};
+			name = Release;
+		};
+		D0E4252E2D66F50A00C72221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SpringrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Springroll;
+			};
+			name = Debug;
+		};
+		D0E4252F2D66F50A00C72221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.SpringrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Springroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0E424FC2D66F50800C72221 /* Build configuration list for PBXProject "Springroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E425252D66F50A00C72221 /* Debug */,
+				D0E425262D66F50A00C72221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E425272D66F50A00C72221 /* Build configuration list for PBXNativeTarget "Springroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E425282D66F50A00C72221 /* Debug */,
+				D0E425292D66F50A00C72221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E4252A2D66F50A00C72221 /* Build configuration list for PBXNativeTarget "SpringrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E4252B2D66F50A00C72221 /* Debug */,
+				D0E4252C2D66F50A00C72221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0E4252D2D66F50A00C72221 /* Build configuration list for PBXNativeTarget "SpringrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0E4252E2D66F50A00C72221 /* Debug */,
+				D0E4252F2D66F50A00C72221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0E424F92D66F50800C72221 /* Project object */;
+}
