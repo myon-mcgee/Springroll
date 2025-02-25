@@ -37,6 +37,7 @@ struct NewRecipeView: View {
                     
                     TextField("Ingredients", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                         .controlSize(.extraLarge)
+                        .multilineTextAlignment(.center)
                         .foregroundStyle(.black)
                         .textFieldStyle(.roundedBorder)
                         .font(.title)
