@@ -33,6 +33,20 @@ struct HomeView: View {
                                 .font(.headline)
                         }
                     }
+                    //end of default recipe adder
+                    //homeViewModel.items, id: \.self
+                    
+                    ForEach(homeViewModel.items, id: \.self) { item in
+                            NavigationLink(destination: NewRecipeView()) {
+                                Text(item)
+                                    .foregroundColor(.primary) // Keeps default text color
+                            }
+                            .simultaneousGesture(TapGesture().onEnded {
+                                homeViewModel.selectedItem = item
+                                print(item)
+                            })
+                    }
+                    
                 }
                 .searchable(text: $searchText, prompt: "Search Recipes")
                 .navigationTitle("")

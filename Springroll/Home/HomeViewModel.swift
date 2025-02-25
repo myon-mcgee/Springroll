@@ -11,8 +11,11 @@ import SwiftUI
 class HomeViewModel: ObservableObject{
     @Published var showAlert = false
     @Published var navigate = false
+    @Published var selectedItem: String?
+//    @Published var editButton = false
     @Published var alertTitle = ""
     @Published var alertMessage = ""
+    @Published var items = ["Item 1", "Item 2", "Item 3", "Item 4"]
     
     var primaryAction: (() -> Void)? = nil  // Action for the first button
     var secondaryAction: (() -> Void)? = nil  // Action for the second button
@@ -30,4 +33,9 @@ class HomeViewModel: ObservableObject{
             self?.navigate = true
         }
     }
+    
+//    func editItem(_ item: String) {
+//        print("Edit \(item)")
+//        self.editButton = true
+//    }
 }
