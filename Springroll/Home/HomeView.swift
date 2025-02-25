@@ -6,26 +6,15 @@ struct HomeView: View {
     @StateObject private var homeViewModel = HomeViewModel()
     
     var body: some View {
-        VStack {
-            Text("SpringRoll")
-                .font(.largeTitle)
-                .bold()
-                     
             // Replace NavigationView with NavigationStack
             NavigationStack {
-                List {
-                    // List content here
-                }
-                .searchable(text: $searchText, prompt: "Search Recipes")
-                .navigationTitle("Recipe")
-                .toolbar {
                     
-                    // Plus Button with Alert
-                    Button {
-                        print("Plus Tapped")
+                List {
+                    //default recipe adder
+                    Button(action: {
                         homeViewModel.triggerAlert(
-                            title: "Recipe Source",
-                            message: "Where is this recipe coming from?",
+                            title: "Add a Recipe",
+                            message: "Would you like to add a new recipe?",
                             primaryTitle: "Link",
                             secondaryTitle: "Self",
                             primaryAction: {
@@ -35,29 +24,43 @@ struct HomeView: View {
                                 homeViewModel.triggerNavigation()
                             }
                         )
-                    } label: {
-                        Image(systemName: "plus")
-                            .font(.title3)
-                            .foregroundColor(.black)
+                    }) {
+                        HStack {
+                            Image(systemName: "plus")
+                                .font(.title)
+                                .foregroundColor(.gray)
+                            Text("Add a Recipe")
+                                .font(.headline)
+                        }
                     }
+                }
+                .searchable(text: $searchText, prompt: "Search Recipes")
+                .navigationTitle("")
+                .toolbar {
                     
+                    ToolbarItem(placement: .principal) { // Places "SpringRoll" in the center
+                        Text("SpringRoll")
+                            .font(.largeTitle)
+                            .bold()
+                    }
+                    ToolbarItem(placement: .navigationBarTrailing) {
                     // Menu Button (Ellipsis)
                     Button {
                         print("Ellipsis Tapped")
                     } label: {
                         Image(systemName: "ellipsis")
-                            .font(.title3)
+                            .font(.subheadline)
                             .foregroundColor(.black)
+                    }
                     }
                 }
                 .alert(homeViewModel.alertTitle, isPresented: $homeViewModel.showAlert) {
                     Button("Link", role: .destructive) { homeViewModel.primaryAction?() }
-                    Button("Self") { homeViewModel.secondaryAction?() }
+                    Button("Self") { homeViewModel.secondaryAction?()}
                 } message: {
                     Text(homeViewModel.alertMessage)
-                }
-            }.navigationDestination(isPresented: $homeViewModel.navigate) {
-                NewRecipeView() //navigates to manual new recipe page
+                }.navigationDestination(isPresented: $homeViewModel.navigate) {
+                    NewRecipeView() //navigates to manual new recipe page
             }
         }
     }
